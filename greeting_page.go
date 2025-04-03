@@ -71,6 +71,7 @@ func (s greetingPage) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		switch msg.(tea.KeyMsg).String() {
 		case "ctrl+c":
 			return s, tea.Quit
+
 		}
 
 	}
